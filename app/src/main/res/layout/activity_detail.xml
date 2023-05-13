@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".DaftarNovelActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/box_one"
+        android:layout_height="200dp">
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="190dp"
+            android:src="@drawable/siksa"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="7 Pertanyaan Siksa Kubur"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:textColor="@color/purple_500"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="Pengarang"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="Ust Able"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="Penerbit"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+
+            android:text="Garmedia"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="Tahun Terbit"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+
+            android:text="Gramedia"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="Genre"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="Rohani"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:background="#CCF29B"
+                android:src="@drawable/mata" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CCF29B"
+                android:padding="5dp"
+                android:text="651k Dibaca"
+                android:textColor="@color/black" />
+            <ImageView
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:background="#CCF29B"
+                android:src="@drawable/hati" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CCF29B"
+                android:padding="5dp"
+                android:text="651k Disukai"
+                android:textColor="@color/black" />
+            <ImageView
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:background="#CCF29B"
+                android:src="@drawable/ulasan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CCF29B"
+                android:padding="5dp"
+                android:text="20k Ulasan"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Siksa Kubur Adalah pertanyaan utuk orang yang meninggal ."
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Siksa kubur adalah buku pertama dari ust able.
+
+"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+        <LinearLayout
+            android:background="#0000bb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="SUBMIT"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
